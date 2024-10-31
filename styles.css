@@ -5,41 +5,31 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-}
+    }
 .car-brands-container {
    
   display: flex;
-  
   justify-content: center;
-   
   align-items: center;
-  
   gap: 10px; 
+  }
 
-
-.scroll-top{
+.scroll-top {
 
 position: fixed;
-  
 bottom: 2rem;
-  
 right: -85rem;
-  
 z-index: 2;
-  
 display: none;
-  
 transition: all 0.5s ease-in-out;
-
 }
 
 
-.show-scroll-top{
+.show-scroll-top {
   display: block;
 }
 
-
-.scroll-top img{
+.scroll-top img { 
   width: 3em;
 }
 
@@ -55,7 +45,7 @@ transition: all 0.5s ease-in-out;
 }
 
 #scrollToTopBtn img {
-  width: 40px; /* Ajusta el tamaño de la imagen */
+  width: 40px; /* Ajusta el tamaÃ±o de la imagen */
   height: 40px;
 }
 
@@ -63,79 +53,40 @@ transition: all 0.5s ease-in-out;
   opacity: 0.8;
 }
 
-
-
 /* Espacio entre los cuadros */
 
-}
-
 .car-brand {
-    
   background-color: #fff;
-  
   border: 2px solid #ddd;
-   
-  border-radius: 25px; 
-
-/* Bordes redondeados */
-   
- padding: 20px;
-   
- text-align: center;
-   
- width: 150px;
-    
- height: 150px;
-   
- display: flex;
-   
- flex-direction: column;
-   
- justify-content: center;
-   
- align-items: center;
-  
- box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-
-/* Sombra para resaltar el cuadro */
-  
-  transition: transform 0.2s; 
-
-/* Animación suave al pasar el ratón */
-
+  border-radius: 25px; /* Bordes redondeados */
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el cuadro */
+  transition: transform 0.2s; /* AnimaciÃ³n suave al pasar el ratÃ³n */
 }
 
 .car-brand img {
-    width: 80px; 
-
-/* Tamaño de la imagen */
-   
- height: auto;
-   
- margin-bottom: 10px;
+   width: 80px; /* TamaÃ±o de la imagen */
+   height: auto;
+   margin-bottom: 10px;
 }
 
-.car-brand p {
-    
+.car-brand p { 
  font-size: 14px;
-   
  color: #333;
 }
 
 
 
-.car-brand:hover 
-
-{
+.car-brand:hover {
   transform: scale(1.05); 
-
-
 }
-
-
-
-
-
 
 
 /* Encabezado */
@@ -153,23 +104,14 @@ header {
 }
 
 header .logo img {
-    height: 90px;
-
- padding: 10px;
-   
- text-align: center;
-   
- width: 90px;
-    
- display: flex;
-   
+  height: 90px;
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+  display: flex;
  flex-direction: column;
-   
  justify-content: center;
-   
  align-items: center;
-  
-  
  transition: transform 0.2s; 
 }
 
@@ -204,8 +146,6 @@ section {
     border-radius: 5px;
 }
 
-
-
 .categoria {
     margin-bottom: 20px;
 }
@@ -236,17 +176,12 @@ form button:hover {
     background-color: #00509e;
 }
 
-
-
-
 nav ul li a:hover {
     text-decoration: underline;
 }
 
 
-
-
-/* Sección de bienvenida */
+/* SecciÃ³n de bienvenida */
 .bienvenida {
     text-align: center;
     padding: 50px;
@@ -259,7 +194,6 @@ nav ul li a:hover {
 }
 
 
-
 /* modificaciones */
 .bienvenida {
     text-align: center;
@@ -268,12 +202,7 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-
-
-
-
-/* Sección agregar auto */
-
+/* SecciÃ³n agregar auto */
 
 .agregar-auto {
     margin: 40px auto;
@@ -322,19 +251,18 @@ nav ul li a:hover {
 }
 
 
-
-/* Estilo para la sección del catálogo */
+/* Estilo para la secciÃ³n del catÃ¡logo */
 #catalogo {
     text-align: center;
     padding: 40px;
 }
 
-/* Contenedor del catálogo que utiliza Flexbox */
+/* Contenedor del catÃ¡logo que utiliza Flexbox */
 .catalogo-container {
     display: flex;
     flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas si es necesario */
     justify-content: space-around; /* Espacia los autos horizontalmente */
-    gap: 20px; /* Añade un espacio entre los autos */
+    gap: 20px; /* AÃ±ade un espacio entre los autos */
 }
 
 /* Estilos para cada auto */
@@ -353,25 +281,16 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* Título de cada auto */
+/* TÃ­tulo de cada auto */
 .auto h3 {
     color: #003366;
     margin-top: 10px;
 }
 
-/* Descripción de cada auto */
+/* DescripciÃ³n de cada auto */
 .auto p {
     color: #555;
 }
-
-
-
-
-
-
-
-
-
 
 .vehiculos-grid {
     display: grid;
@@ -409,11 +328,7 @@ nav ul li a:hover {
     color: #333;
 }
 
-
-
-
-
-/* Pie de página */
+/* Pie de pÃ¡gina */
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -427,31 +342,18 @@ footer p {
 }
 
 footer .arriba{
-   
- display: block;
-    
-width: 50px;
-   
- height: 50px;
-   
- background-color: #e352dc;
-   
- color: #fff;
-    
-position: absolute;
-    
-left: 50%;
-   
- transform: translateX(-50%);
-  
+  display: block;
+  width: 50px; 
+  height: 50px;
+  background-color: #e352dc;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   top: -25px;
-    
-border-radius: 50%;
-  
+  border-radius: 50%;
   line-height: 50px;
- 
-   font-size: 18px;
-
+  font-size: 18px;
 }
 
 #scrollToTopBtn {
@@ -467,7 +369,7 @@ border-radius: 50%;
 }
 
 #scrollToTopBtn img {
-  width: 40px; /* Ajusta el tamaño de la imagen */
+  width: 40px; /* Ajusta el tamaÃ±o de la imagen */
   height: 40px;
 }
 
